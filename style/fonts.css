@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Mulish-700";
+  src: url(../fonts/Mulish-Bold.ttf);
+}
+@font-face {
+  font-family: "Mulish-400";
+  src: url(../fonts/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: "Mulish-600";
+  src: url(../fonts/Mulish-SemiBold.ttf);
+}

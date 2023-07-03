@@ -1,0 +1,27 @@
+.close,
+.close ~ * {
+  --aside-width: 80px;
+}
+
+.close a span {
+  opacity: 0;
+}
+
+.close .aside-footer {
+  padding: 10px;
+}
+
+.close #dark-light span {
+  display: none;
+}
+.close .logout span {
+  display: none;
+}
+
+/* .close #dark-light a {
+  display: inline-block;
+} */
+.aside.close .aside-main .company-logo span,
+.aside.close .aside-main .sidebar-menu li a span {
+  display: none;
+}

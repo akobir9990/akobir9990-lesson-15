@@ -1,0 +1,73 @@
+.aside {
+  position: fixed;
+  width: var(--aside-width);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--aside-bg-color);
+  transition: 0.3s;
+}
+#aside.small-aside {
+  width: 150px;
+}
+.company-logo {
+  margin: 36px 23px 33px 23px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.company-logo span {
+  font-family: "Mulish-700";
+  font-size: 19px;
+  color: var(--aside-text-color);
+  line-height: 24px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+}
+.sidebar-menu li a {
+  padding: 0 23px 0 23px;
+  display: flex;
+  width: 100%;
+  height: 56px;
+  align-items: center;
+  gap: 27px;
+  font-family: "Mulish-400";
+  font-size: 16px;
+  color: var(--aside-text-color);
+  transition: 0.3;
+}
+.sidebar-menu li a span path {
+  transition: 0.3s;
+}
+.sidebar-menu li a:hover {
+  background: rgba(159, 162, 180, 0.08);
+}
+.sidebar-menu li a:hover > span {
+  color: var(--aside-active-text-color);
+}
+.sidebar-menu li a:hover > svg path {
+  opacity: 1;
+  fill: var(--aside-active-icon-color);
+}
+.aside-footer {
+  padding: 24px 43px 32px 43px;
+}
+#dark-light {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#dark-light img {
+  width: 48px;
+}
+#dark-light span {
+  color: var(--aside-text-color);
+}
+
+.logout {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-top: 10px;
+}

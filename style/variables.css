@@ -1,0 +1,23 @@
+:root {
+  scroll-behavior: smooth;
+  --primary-color: red;
+
+  /* <--aside--> */
+
+  --aside-width: 255px;
+  --aside-bg-color: #111111;
+  --aside-text-color: #dde2ff;
+  --aside-active-text-color: rgba(221, 226, 255, 1);
+  --aside-icon-color: rgba(159, 162, 180, 1);
+  --aside-active-icon-color: rgba(221, 226, 255, 1);
+  --aside-active-icon-opacity: 0.4;
+  --logo-text-color: #a4a6b3;
+  --logo-icon-color: #f3d7ff;
+
+  /* <--aside-end--> */
+
+  /* <--content--> */
+
+  --header-width: 100px;
+  --content-text-color: rgba(37, 39, 51, 1);
+}

@@ -1,0 +1,22 @@
+.light .header {
+  background: rgba(47, 47, 47, 0.184);
+  backdrop-filter: blur(10px);
+}
+.light .aside {
+  background: #2f2f2f2f;
+}
+.light .aside-main svg path,
+.light .aside-main .sidebar-menu li a svg path,
+.light .aside-footer .logout svg path {
+  fill: #111111;
+}
+
+.light .content {
+  color: white;
+}
+.light #dark-light span {
+  color: white;
+}
+.light #dark-light span {
+  color: white;
+}
